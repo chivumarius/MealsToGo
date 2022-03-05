@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { StatusBar as ExpoStatusBar } from "expo-status-bar";
 import React from "react";
 import { Searchbar } from "react-native-paper";
@@ -35,3 +36,17 @@ const styles = StyleSheet.create({
     backgroundColor: "blue",
   },
 });
+=======
+import { StatusBar } from "expo-status-bar";
+import { StyleSheet, Text, View } from "react-native";
+
+export default function App() {
+  return (
+    <View style={{ flex: 1, alignment: "center", justifyContent: "center" }}>
+      <Text>Our React Native Blank Canvas.</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({});
+>>>>>>> b095c75c9a907eee4a188f3ea24eb41a052bbdb5
