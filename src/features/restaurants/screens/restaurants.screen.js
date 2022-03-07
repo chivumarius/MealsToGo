@@ -7,9 +7,7 @@ import { RestaurantInfoCard } from "../components/restaurant-info-card.component
 
 const SafeArea = styled(SafeAreaView)`
   flex: 1;
-  // DISPLAY FOR "iOS" AND "ANDROID"
-  // A 'VARIABLE' FROM 'OUTSIDE' → BY '$' SIGN:
-  ${StatusBar.currentHeight && `margin-top: ${StatusBar.currentHeight}px`};
+  margin-top: ${StatusBar.currentHeight}px;
 `;
 
 const SearchContainer = styled.View`
@@ -27,7 +25,6 @@ export const RestaurantsScreen = () => (
     <SearchContainer>
       <Searchbar />
     </SearchContainer>
-
     <RestaurantListContainer>
       <RestaurantInfoCard />
     </RestaurantListContainer>
