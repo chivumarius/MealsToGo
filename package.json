@@ -21,6 +21,7 @@
     "expo": "^44.0.0",
     "expo-font": "~10.0.4",
     "expo-status-bar": "~1.2.0",
+    "expo-updates": "~0.11.6",
     "firebase": "^7.9.0",
     "lottie-react-native": "5.0.1",
     "react": "17.0.1",
