@@ -14,7 +14,6 @@ import { Navigation } from "./src/infrastructure/navigation";
 
 import { AuthenticationContextProvider } from "./src/services/authentication/authentication.context";
 
-
 const firebaseConfig = {
   apiKey: "AIzaSyB9CDoPbkTp5DWW6ArcM79NqaxNiZbVC40",
   authDomain: "mealstogo-7519b.firebaseapp.com",
