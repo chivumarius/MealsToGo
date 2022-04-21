@@ -1,5 +1,6 @@
 import { Platform } from "react-native";
 
+
 const liveHost = "https://us-central1-mealstogo-7519b.cloudfunctions.net";
 const localHost = "http://localhost:5001/mealstogo-7519b/us-central1";
 
